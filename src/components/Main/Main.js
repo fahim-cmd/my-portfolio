@@ -1,18 +1,13 @@
 import React from 'react';
-import About from '../About/About';
-import ContactPage from '../ContactPage/ContactPage';
-import Header from '../Header/Header';
-import Home from '../Home/Home';
 import SetNavbar from '../Home/SetNavbar/SetNavbar';
-import Projects from '../Projects/Projects';
+import SocialIcon from '../SocialIcon/SocialIcon';
 import './Main.css';
 
 const Main = () => {
     return (
         <div id="mainBg">
             <SetNavbar></SetNavbar>
-            
-            
+            <SocialIcon></SocialIcon>
         </div>
     );
 };

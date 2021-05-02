@@ -20,7 +20,7 @@ const About = () => {
                                     <p><span style={{ fontWeight: 'bold' }}>Language: </span> Bangla, English</p>
                                     <p><span style={{ fontWeight: 'bold' }}>Email:</span> <a href="">hfahim087@gmail.com</a></p>
                                     <p><span style={{ fontWeight: 'bold' }}>Phone:</span> +8801798081535</p>
-                                    <Button className="buttonStyle"><a href="https://drive.google.com/file/d/1hwxXQ6nVG1FGGcH-e97o6IczOm2Cu51d/view">
+                                    <Button className="aboutBtn"><a href="https://drive.google.com/file/d/1hwxXQ6nVG1FGGcH-e97o6IczOm2Cu51d/view">
                                         Download Resume</a></Button>
                                 </div>
                             </div>
@@ -33,8 +33,8 @@ const About = () => {
 
                             <div className="titleHead">
                                 <h3>My Programming skills</h3>
-                                <h5>Expertise:</h5>
 
+                                <h5>Expertise:</h5>
                                 <small>javascript</small>
                                 <small>React</small>
                                 <small>Bootstrap</small>
@@ -42,14 +42,15 @@ const About = () => {
                                 <small>CSS3</small>
 
                                 <h5>Comfortable:</h5>
-
                                 <small>Express</small>
                                 <small>MongoDB</small>
                                 <small>React-Bootstrap</small>
                                 <small>react-Router</small>
+
                                 <h5>Familiar:</h5>
                                 <small>SASS</small>
                                 <small>Material UI</small>
+
                                 <h5>Tools:</h5>
                                 <small>Heroku</small>
                                 <small>Netlify</small>
@@ -59,7 +60,6 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
             <Footer></Footer>
         </section>

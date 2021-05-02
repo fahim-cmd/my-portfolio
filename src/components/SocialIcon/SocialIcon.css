@@ -1,0 +1,135 @@
+#socialPosition {
+    position: fixed;
+    left: 0px;
+    top: 300px;
+    width: 100%;
+    z-index: 99;
+    background-color: rgba(211, 211, 211, 0.883);
+    width: 60px;
+    height: auto;
+    padding: 10px;
+}
+
+/*wrapper*/
+
+.icon-button {
+    /* background-color: white; */
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.9rem;
+}
+
+/*circle*/
+
+.icon-button span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 0;
+}
+
+.icon-button:hover span {
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 2.6rem;
+    margin: -1.3rem;
+}
+
+/* Icons */
+
+.icon-button .social {
+    background: none;
+    color: white;
+    height: 2.6rem;
+    left: 0;
+    line-height: 2.6rem;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 2.6rem;
+    z-index: 10;
+}
+
+.facebook span {
+    background-color: #383bff;
+}
+
+.icon-button .icon-facebook {
+    color: #385898;
+}
+
+.icon-button:hover .icon-facebook {
+    color: white;
+}
+
+/*linkedIn*/
+
+.linkedIn span {
+    background-color: #ffffff;
+}
+
+.icon-button .icon-linkedIn {
+    color: #4d58ff;
+}
+
+.icon-button:hover .icon-linkedIn {
+    color: rgb(75, 93, 255);
+}
+
+/*github*/
+
+.github span {
+    background-color: #000000;
+}
+
+.icon-button .icon-github {
+    color: #000000;
+}
+
+.icon-button:hover .icon-github {
+    color: white;
+}
+
+@media all and (max-width: 680px) {
+    .icon-button {
+        border-radius: 1.6rem;
+        font-size: 0.8rem;
+        height: 1.6rem;
+        line-height: 1.6rem;
+        width: 1.6rem;
+    }
+    .icon-button:hover span {
+        width: 1.6rem;
+        height: 1.6rem;
+        border-radius: 1.6rem;
+        margin: -0.8rem;
+    }
+    /* Icons */
+    .icon-button .social {
+        height: 1.6rem;
+        line-height: 1.6rem;
+        width: 1.6rem;
+    }
+}

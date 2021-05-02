@@ -1,6 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faGithub, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { } from '@fortawesome/free-solid-svg-icons';
 import './ContactPage.css';
 import emailjs from 'emailjs-com';
@@ -36,7 +34,6 @@ const ContactPage = () => {
                         </div>
 
                         <form className="contact-form pb-5" onSubmit={sendEmail}>
-
                             <label>Name</label>
                             <input className="form-control" placeholder="Your Name" type="text" name="user_name" />
                             <label>Email</label>
@@ -46,8 +43,8 @@ const ContactPage = () => {
                             <br />
                             <input className="form-control" id="contactBtn" type="submit" value="Send message" />
                         </form>
-
                     </div>
+
                     <div class="col-md-6 mt-5">
                         <h1 className="contactName pt-5 mt-3">Contact Info</h1>
                         <h5>Always available for freelance work if the right project comes along, Feel free to contact me!</h5>
@@ -59,7 +56,6 @@ const ContactPage = () => {
                         <br />
                         <h5>Send Email</h5>
                         <h5>hfahim087@gmail.com</h5>
-
                     </div>
                 </div>
             </div>

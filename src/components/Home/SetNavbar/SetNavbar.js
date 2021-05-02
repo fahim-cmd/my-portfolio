@@ -16,6 +16,7 @@ const SetNavbar = () => {
           <NavItem><Link className="items" to="/projects">Projects</Link></NavItem>
           <NavItem><Link className="items" to="/contact">Contact</Link></NavItem>
         </Nav>
+        
         <button className="buttonStyle"><a href="https://drive.google.com/file/d/1hwxXQ6nVG1FGGcH-e97o6IczOm2Cu51d/view">
           Download Resume</a></button>
 

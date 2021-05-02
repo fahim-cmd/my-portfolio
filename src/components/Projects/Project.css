@@ -1,0 +1,22 @@
+.projectBg {
+    background-color: #150e56;
+    background-image: radial-gradient( #6f42c1, #6f29e0);
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+.card {
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.card img {
+    height: 300px;
+    padding: 15px;
+}
+
+.iconStyle {
+    cursor: pointer;
+    font-size: 40px;
+    color: black;
+}

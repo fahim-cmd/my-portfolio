@@ -1,0 +1,43 @@
+#nameStyle {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.navShadow {
+    box-shadow: 0 4px 30px -2px rgb(175, 162, 245);
+    
+}
+#navbar{
+    background: #7838e0be;
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   z-index: 99;
+}
+
+.items {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.buttonStyle {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+}
+
+.buttonStyle a {
+    color: white;
+}

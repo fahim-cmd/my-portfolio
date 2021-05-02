@@ -1,5 +1,6 @@
 import React from 'react';
 import About from '../About/About';
+import ContactMe from '../ContactMe/ContactMe';
 import ContactPage from '../ContactPage/ContactPage';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
@@ -12,7 +13,8 @@ const Home = () => {
             <Header></Header>
             <Projects></Projects>
             <About></About>
-            <ContactPage></ContactPage>
+            {/* <ContactPage></ContactPage> */}
+            <ContactMe></ContactMe>
             <Footer></Footer>
             <div className="animation-area">
                 <ul className="box-area">

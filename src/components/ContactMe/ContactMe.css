@@ -1,41 +1,46 @@
-.projectBg {
+.contactBg {
     background-color: #150e56;
-    background-image: radial-gradient( #6f42c1, #6f29e0);
-    padding-bottom: 40px;
+    background-image: radial-gradient( #6f42c1, #6610f2);
+    padding-bottom: 20px;
     padding-top: 50px;
 }
 
-.card {
-    height: auto;
-    margin-bottom: 15px;
-    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
-    padding: 14px 80px 18px 36px;
-    cursor: pointer;
+.contact-form .form-control {
+    background-image: radial-gradient( #1d1827, #211e25);
 }
 
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+.letsTalk h3 {
+    font-weight: bold;
 }
 
-.card img {
-    height: 300px;
-    padding: 15px;
+.letsTalk h1 {
+    font-weight: 800;
 }
 
-.iconStyle {
-    cursor: pointer;
-    font-size: 40px;
-    color: black;
+.contact-form label {
+    color: white;
 }
 
-#projectTitle {
+#contactBtn {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.contactName {
+    color: white;
+    font-weight: 800;
+}
+
+#talk {
     position: relative;
     text-transform: uppercase;
     /*letter-spacing: 6px;
-    */font-size: 4vw;
+    */
+    font-size: 4vw;
     font-weight: 800;
-    margin-top: 70px;
+    margin-top: 10px;
     padding-bottom: 20px;
     text-decoration: none;
     color: white;
@@ -50,11 +55,11 @@
     background-clip: text;
     text-fill-color: transparent;
     background-image: linear-gradient(45deg, #7794ff, #44107A, #FF1361, #FFF800);
-    animation: .8s Some infinite alternate;
-    -webkit-animation: .8s Some infinite alternate;
+    animation: .8s Let infinite alternate;
+    -webkit-animation: .8s Let infinite alternate;
 }
 
-@keyframes Some {
+@keyframes Let {
     0% {
         transform: skewX(-15deg);
     }

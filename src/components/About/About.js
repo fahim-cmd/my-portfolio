@@ -6,7 +6,7 @@ const About = () => {
     return (
         <section id="aboutHeight" id="aboutBg">
             <div className="container">
-                <h1 className="aboutTitle ">About Me</h1>
+                <div><h1 className="aboutTitle ">About Me</h1></div>
                 <div className="d-flex justify-content-around">
                     <div className="row">
                         <div className="col-md-6 imgStyle d-flex">

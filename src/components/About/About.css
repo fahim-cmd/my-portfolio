@@ -1,9 +1,4 @@
-.aboutTitle {
-    margin: 0 0 50px 0;
-    padding-top: 40px;
-    font-size: 50px;
-    font-weight: 800;
-}
+
 
 #aboutHeight {
     height: auto;
@@ -97,4 +92,49 @@ h5 {
 .aboutBtn a {
     color: white;
     font-weight: bold;
+}
+
+.aboutTitle {
+    position: relative;
+    text-transform: uppercase;
+    /*letter-spacing: 6px;
+    */font-size: 4vw;
+    font-weight: 800;
+    margin-top: 70px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-size: 120% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #7794ff, #44107A, #FF1361, #FFF800);
+    animation: .8s About infinite alternate;
+    -webkit-animation: .8s About infinite alternate;
+}
+@keyframes About {
+    0% {
+        transform: skewX(-15deg);
+    }
+    5% {
+        transform: skewX(15deg);
+    }
+    10% {
+        transform: skewX(-15deg);
+    }
+    15% {
+        transform: skewX(15deg);
+    }
+    20% {
+        transform: skewX(0deg);
+    }
+    100% {
+        transform: skewX(0deg);
+    }
 }
